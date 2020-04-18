@@ -1,4 +1,37 @@
-.App {
-  font-family: sans-serif;
-  text-align: center;
+body {
+  font-family: Avenir, Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  background-color: #282c35;
+  color: white;
+  padding: 0 20px;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style-type: none;
+  text-transform: capitalize;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+button {
+  font-size: 24px;
+  padding: 14px;
+  border: 0;
+  background-color: #007bff;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  /* 40% lighter blue */
+  background-color: #3f9cff;
+}
+
+.error {
+  color: #dc3545;
 }
